@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100px;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+.main-bar{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 60px;
+    background-color: red;
+    margin-top: 15px;
+}
+
+.main-bar ul {
+    margin: auto;
+}
+
+.main-bar ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.article {
+    width: 70%;
+    height: 700px;
+    background: #EDDA0B;
+    float: left;
+    margin-top: 15px;
+}
+
+.side-bar {
+    width: 30%;
+    height: 700px;
+    background: #FFFFFF;
+    float: left;
+    margin-top: 15px;
+}
+
+.side-bar ul li {
+    list-style-type: none;
+    padding: 5px;
+}
